@@ -7,8 +7,7 @@ This script will sync a local folder to S3 when anything in the directory is cha
   - `sudo apt-get install fswatch -y` on ubuntu
 2. Install AWS CLI
 3. An S3 bucket
-4. Local AWS profile with access to the S3 bucket
-  - (Docs here)[https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html]
+4. Local AWS profile with access to the S3 bucket. [Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 ## Install
 1. Clone sync.sh
@@ -19,8 +18,8 @@ This script will sync a local folder to S3 when anything in the directory is cha
 `./sync.sh /path/to/local/folder s3BucketName awsProfileName &`
 
 ## Built with
-1. (fswatch)[https://github.com/emcrisostomo/fswatch]
-2. (AWS CLI)[https://github.com/aws/aws-cli]
+1. [fswatch](https://github.com/emcrisostomo/fswatch)
+2. [AWS CLI](https://github.com/aws/aws-cli)
 
 ## Answers
 **Deleting a file locally doesn't work.**
